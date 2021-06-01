@@ -12,15 +12,20 @@
 		{
 			"FileMask": "packages.config",
 			"Regular": [
-				"{Name}\" Version=\"{version}"
+				"{Name}\" version=\"{version}"
 			]
 		}
 	],
 	"Packages": [
 		{
 			"Library": "RRJ-Express.ContainerCore",
-			"OldVersion": "1.1.1.5",
-			"NewVersion": "1.1.1.6"
+			"OldVersion": "1.1.1.4",
+			"NewVersion": "1.1.1.5"
+		},
+		{
+			"Library": "RRJ-Express.ExpressCore",
+			"OldVersion": "1.0.0.23",
+			"NewVersion": "1.0.0.24"
 		}
 	]
 }

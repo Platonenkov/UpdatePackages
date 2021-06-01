@@ -409,11 +409,11 @@
     <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
       <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
     </Reference>
-    <Reference Include="RRJ-Express.ContainerCore, Version=1.1.1.6, Culture=neutral, PublicKeyToken=608ff9d6abf0de29, processorArchitecture=MSIL">
-      <HintPath>..\packages\RRJ-Express.ContainerCore.1.1.1.6\lib\netstandard2.0\RRJ-Express.ContainerCore.dll</HintPath>
+    <Reference Include="RRJ-Express.ContainerCore, Version=1.1.1.4, Culture=neutral, PublicKeyToken=608ff9d6abf0de29, processorArchitecture=MSIL">
+      <HintPath>..\packages\RRJ-Express.ContainerCore.1.1.1.4\lib\netstandard2.0\RRJ-Express.ContainerCore.dll</HintPath>
     </Reference>
-    <Reference Include="RRJ-Express.ExpressCore, Version=1.0.0.23, Culture=neutral, PublicKeyToken=f03de98b7c9d7042, processorArchitecture=MSIL">
-      <HintPath>..\packages\RRJ-Express.ExpressCore.1.0.0.23\lib\netstandard2.0\RRJ-Express.ExpressCore.dll</HintPath>
+    <Reference Include="RRJ-Express.ExpressCore, Version=1.0.0.24, Culture=neutral, PublicKeyToken=f03de98b7c9d7042, processorArchitecture=MSIL">
+      <HintPath>..\packages\RRJ-Express.ExpressCore.1.0.0.24\lib\netstandard2.0\RRJ-Express.ExpressCore.dll</HintPath>
     </Reference>
     <Reference Include="SQLitePCLRaw.core, Version=2.0.3.851, Culture=neutral, PublicKeyToken=1488e028ca7ab535, processorArchitecture=MSIL">
       <HintPath>..\packages\SQLitePCLRaw.core.2.0.3\lib\netstandard2.0\SQLitePCLRaw.core.dll</HintPath>

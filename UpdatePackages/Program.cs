@@ -100,6 +100,8 @@ namespace UpdatePackages
                 {
                     "No changes".ConsoleRed();
                 }
+                else
+                    $"{FileChanges.Count} file(s) was changed".ConsoleYellow();
 
             }
             "press any Enter to close programm".PrintMessgeAndWaitEnter();
@@ -133,7 +135,7 @@ namespace UpdatePackages
 
                 foreach (var file in files)
                 {
-                    tasks.Add(UpdatePackageInFileAsync(file.FullName, updating));
+                    tasks.Add(UpdatePackageInFileAsync2(file.FullName, updating));
                 }
             }
             if (tasks.Count == 0)
@@ -189,8 +191,22 @@ namespace UpdatePackages
         {
             try
             {
+                var changes = 0;
                 var text = await File.ReadAllTextAsync(filePath);
-                text = Updating.Aggregate(text, (current, package) => current.Replace(package.Key, package.Value));
+                text = Updating.Aggregate(text, (current, package) =>
+                {
+                    if (current.Contains(package.Key))
+                        changes++;
+                    return current.Replace(package.Key, package.Value);
+                });
+                if (changes > 0)
+                    lock (FileChanges)
+                    {
+                        FileChanges.Add(filePath, changes);
+                        $"File - {filePath}\nChange - {changes} row(s)".ConsoleYellow();
+                    }
+                else
+                    return false;
                 await File.WriteAllTextAsync(filePath, text);
                 return true;
             }
