@@ -12,6 +12,7 @@
 		{
 			"FileMask": "packages.config",
 			"Regular": [
+				"{Name}\" version=\"{version}",
 				"{Name}\" version=\"{version}"
 			]
 		}

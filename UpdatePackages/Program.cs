@@ -40,6 +40,7 @@ namespace UpdatePackages
                     FileMask = "packages.config",
                     Regular = new [] {
                         "{Name}\" Version=\"{version}",
+                        "{Name}\" version=\"{version}",
                     }
                 },
             }
