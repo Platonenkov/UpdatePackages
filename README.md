@@ -43,6 +43,7 @@ UpdatePackages.exe
 			"FileMask": "packages.config",
 			"Regular": [
 				"{Name}\" Version=\"{version}"
+                       		"{Name}\" version=\"{version}",
 			]
 		}
 	]
