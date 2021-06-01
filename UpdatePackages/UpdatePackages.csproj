@@ -10,18 +10,4 @@
     <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>-->
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Update="C:\Users\Evril\.nuget\packages\rrj-express.containercore\1.1.1.6\contentFiles\any\netstandard2.0\Databases\RRJ-95B_acms530_params.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Update="C:\Users\Evril\.nuget\packages\rrj-express.containercore\1.1.1.6\contentFiles\any\netstandard2.0\Databases\RRJ-95B_acms530_params_vref-4.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Update="C:\Users\Evril\.nuget\packages\rrj-express.containercore\1.1.1.6\contentFiles\any\netstandard2.0\Databases\RRJ-95B_fdr380_params.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Update="C:\Users\Evril\.nuget\packages\rrj-express.containercore\1.1.1.6\contentFiles\any\netstandard2.0\Databases\RRJ-95B_fdr380_params_vref-4.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
 </Project>
